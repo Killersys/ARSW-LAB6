@@ -31,6 +31,7 @@ public class Blueprint {
     }    
     
     public String  getName() {
+
         return this.name;
     }
 
