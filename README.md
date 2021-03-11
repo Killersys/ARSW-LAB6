@@ -92,6 +92,7 @@
 5. Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
 
 6. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un usuario existente, se cargue el listado del mismo.
+![img](https://github.com/Killersys/ARSW-LAB6/blob/master/img/frontEnd.PNG)
 
 ## Para la próxima semana
 
