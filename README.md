@@ -1,7 +1,7 @@
 
 ### Escuela Colombiana de Ingeniería
 ### Arquiecturas de Software
-###Integrantes:
+### Integrantes:
 - Laura Bernal Hernandez
 - Jairo Pulido
 
