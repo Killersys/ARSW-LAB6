@@ -17,7 +17,7 @@ var app = (function () {
             ctx.beginPath();
         return apiRest.getBlueprintsByAuthor(author, tabla);
     }
-     var tabla = function(data){
+     var tabla = function(error,data){
          console.log("tabla")
          console.log(data)
         var table = $('#bluePrints')
@@ -53,7 +53,7 @@ var app = (function () {
         return apimock.getBlueprintsByNameAndAuthor(name, author, pintarCanvas)
     };
 
-    var pintarCanvas= function (data) {
+    var pintarCanvas= function (error, data) {
         console.log(data)
         abrir = true;
         nombre= data.name;
@@ -93,7 +93,7 @@ var app = (function () {
     return {
         getBlueprintsByAuthor: getBlueprintsByAuthor,
         getBlueprintsByNameAndAuthor: getBlueprintsByNameAndAuthor,
-        newBluePrint:newBluePrint,
+        //newBluePrint:newBluePrint,
         init:init
     }
 
